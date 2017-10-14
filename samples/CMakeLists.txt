@@ -25,6 +25,7 @@ endif()
 
 if(${enable_nodejs_binding})
     add_subdirectory(nodejs_simple_sample)
+    add_subdirectory(nodejs_asa_edge)
 endif()
 
 if (${enable_native_remote_modules})
